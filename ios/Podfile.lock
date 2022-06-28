@@ -1,0 +1,37 @@
+PODS:
+  - Capacitor (3.5.1):
+    - CapacitorCordova
+  - CapacitorCordova (3.5.1)
+  - CryptoSwift (1.5.1)
+  - Starscream (3.1.1)
+  - WalletConnectSwift (1.6.0):
+    - CryptoSwift (~> 1.4)
+    - Starscream (~> 3.1)
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - WalletConnectSwift
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - Starscream
+    - WalletConnectSwift
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: a13a4a985bf4e3eac033c74848c77ff29dfa13ca
+  CapacitorCordova: 9305ba1d3c73fa7271f5b2c3ca8a92ea76b56c74
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  WalletConnectSwift: 1fbff8f5315bd8d41596773ca1b384aa873b6824
+
+PODFILE CHECKSUM: d8b8ac1fcf93f49e749d6763730f7aba8a41b6e3
+
+COCOAPODS: 1.11.2
